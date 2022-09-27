@@ -1,0 +1,43 @@
+.NavLink:link,:visited{
+    color: #efece0;
+    text-decoration: none;
+}
+
+.NavLink:hover {
+    color: #d1ded8;
+    text-decoration: underline;
+}
+
+.active {
+    color: #ffffff;
+}
+
+#submit,#scoreDiv,#nameDiv {
+    margin-top: 15px;
+}
+
+input[type=text], input[type=number], input[type=submit] {
+    border-radius: 12px;
+    color: #ECE5C7;
+    background-color: #354259;
+}
+
+h3,text,label {
+    color: #ECE5C7;
+}
+.col{
+    border: solid 1px #354259;
+    margin-bottom: 5px;
+}
+
+#table {
+    padding-right: 30%;
+    padding-left: 30%;
+    margin-top: 20px;
+}
+
+.tableHead {
+    border: solid 1px #59354e !important;
+    color: #ECE5C7;
+    text-transform: uppercase;
+}
